@@ -3,9 +3,9 @@ import pandas as pd
 import numpy as np
 import joblib
 
-model = joblib.load("../Model/Logistic_model.pkl")
-scaler = joblib.load("../Scaler/Scaler.pkl")
-feature_cols = joblib.load("../Features/features.pkl")
+model = joblib.load("Logistic_model.pkl")
+scaler = joblib.load("Scaler.pkl")
+feature_cols = joblib.load("features.pkl")
 
 st.set_page_config(page_title="Churn Prediction App", layout="wide")
 
